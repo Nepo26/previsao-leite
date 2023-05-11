@@ -1,0 +1,90 @@
+ICSS                    Age standardisation weights from the ICSS
+                        scheme.
+Lexis_fpa               Create a Lexis Object with Follow-up Time,
+                        Period, and Age Time Scales
+RPL                     Relative Poisson family object
+Surv                    Survival Objects
+adjust                  Adjust Estimates by Categorical Variables
+aggre                   Aggregation of split 'Lexis' data
+all_names_present       Check if all names are present in given data
+array_df_ratetable_utils
+                        'array's, 'data.frame's and 'ratetable's
+as.Date.yrs             Coerce Fractional Year Values to Date Values
+as.aggre                Coercion to Class 'aggre'
+cast_simple             Cast 'data.table'/'data.frame' from long format
+                        to wide format
+cut_bound               Change output values from cut(..., labels =
+                        NULL) output
+direct_standardization
+                        Direct Adjusting in 'popEpi' Using Weights
+fac2num                 Convert factor variable to numeric
+flexible_argument       Flexible Variable Usage in 'popEpi' Functions
+get.yrs                 Convert date objects to fractional years
+is.Date                 Test if object is a 'Date' object
+is_leap_year            Detect leap years
+lexpand                 Split case-level observations
+lines.sirspline         lines method for sirspline-object
+lines.survmean          Graphically Inspect Curves Used in Mean
+                        Survival Computation
+lines.survtab           'lines' method for survtab objects
+lower_bound             Return lower_bound value from char string
+                        (20,30]
+ltable                  Tabulate Counts and Other Functions by Multiple
+                        Variables into a Long-Format Table
+meanpop_fi              Mean population counts in Finland year, sex,
+                        and age group.
+na2zero                 Convert NA's to zero in data.table
+plot.rate               plot method for rate object
+plot.sir                Plot method for sir-object
+plot.sirspline          'plot' method for sirspline-object
+plot.survmean           Graphically Inspect Curves Used in Mean
+                        Survival Computation
+plot.survtab            'plot' method for survtab objects
+poisson.ci              Get rate and exact Poisson confidence intervals
+popEpi                  popEpi: Functions for large-scale
+                        epidemiological analysis
+pophaz                  Expected / Population Hazard Data Sets Usage in
+                        'popEpi'
+popmort                 Population mortality rates in Finland 1951 -
+                        2013 in 101 age groups and by gender. This is
+                        an example of a population hazard table as used
+                        in 'popEpi'; for the general help page, see
+                        'pophaz'.
+prepExpo                Prepare Exposure Data for Aggregation
+print.aggre             Print an 'aggre' Object
+print.rate              Print an rate object
+print.survtab           Print a survtab Object
+rate                    Direct-Standardised Incidence/Mortality Rates
+rate_ratio              Confidence intervals for the rate ratios
+relpois                 Excess hazard Poisson model
+relpois_ag              Excess hazard Poisson model
+robust_values           Convert values to numeric robustly
+rpcurve                 Marginal piecewise parametric relative survival
+                        curve
+setaggre                Set 'aggre' attributes to an object by
+                        modifying in place
+setclass                Set the class of an object (convenience
+                        function for 'setattr(obj, "class", CLASS)');
+                        can add instead of replace
+setcolsnull             Delete 'data.table' columns if there
+sibr                    sibr - a simulated cohort of Finnish female
+                        breast cancer patients
+sir                     Calculate SIR or SMR
+sir_exp                 Calculate SMR
+sir_ratio               Confidence intervals for the ratio of two
+                        SIRs/SMRs
+sire                    sire - a simulated cohort of Finnish female
+                        rectal cancer patients
+sirspline               Estimate splines for SIR or SMR
+splitLexisDT            Split case-level observations
+splitMulti              Split case-level observations
+stdpop101               World standard population by 1 year age groups
+                        from 1 to 101. Sums to 100 000.
+stdpop18                Standard populations from 2000: world, Europe
+                        and Nordic.
+summary.aggre           Summarize an 'aggre' Object
+summary.survtab         Summarize a survtab Object
+survmean                Compute Mean Survival Times Using Extrapolation
+survtab                 Estimate Survival Time Functions
+survtab_ag              Estimate Survival Time Functions
+try2int                 Attempt coercion to integer

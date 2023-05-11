@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Combined Model Selection Criteria</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Combined Model Selection Criteria
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;CombMSC&rsquo; version 1.4.2.1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="CombMSC-package.html">CombMSC-package</a></td>
+<td>Combined Model Selection Criteria</td></tr>
+<tr><td style="width: 25%;"><a href="Adj.Rsq.html">Adj.Rsq</a></td>
+<td>Adjusted R-Squared</td></tr>
+<tr><td style="width: 25%;"><a href="Adj.Rsq.html">Adj.Rsq.fmo</a></td>
+<td>Adjusted R-Squared</td></tr>
+<tr><td style="width: 25%;"><a href="Adj.Rsq.html">Adj.Rsq.lm</a></td>
+<td>Adjusted R-Squared</td></tr>
+<tr><td style="width: 25%;"><a href="AIC.fmo.html">AIC.fmo</a></td>
+<td>AIC</td></tr>
+<tr><td style="width: 25%;"><a href="BIC.html">BIC</a></td>
+<td>Akaike Information Criterion</td></tr>
+<tr><td style="width: 25%;"><a href="BIC.html">BIC.fmo</a></td>
+<td>Akaike Information Criterion</td></tr>
+<tr><td style="width: 25%;"><a href="CombMSC-package.html">CombMSC</a></td>
+<td>Combined Model Selection Criteria</td></tr>
+<tr><td style="width: 25%;"><a href="compare.html">compare</a></td>
+<td>Compare 2 msc objects</td></tr>
+<tr><td style="width: 25%;"><a href="Cp.html">Cp</a></td>
+<td>Mallows Cp</td></tr>
+<tr><td style="width: 25%;"><a href="Cp.html">Cp.fmo</a></td>
+<td>Mallows Cp</td></tr>
+<tr><td style="width: 25%;"><a href="Cp.html">Cp.lm</a></td>
+<td>Mallows Cp</td></tr>
+<tr><td style="width: 25%;"><a href="fit.Models.html">fit.Models</a></td>
+<td>Generic model fitting</td></tr>
+<tr><td style="width: 25%;"><a href="fit.Models.html">fit.Models.glmFormula</a></td>
+<td>Generic model fitting</td></tr>
+<tr><td style="width: 25%;"><a href="fit.Models.html">fit.Models.lmFormula</a></td>
+<td>Generic model fitting</td></tr>
+<tr><td style="width: 25%;"><a href="fit.Models.html">fit.Models.tsm</a></td>
+<td>Generic model fitting</td></tr>
+<tr><td style="width: 25%;"><a href="gen.Data.html">gen.Data</a></td>
+<td>Simulate Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="gen.Data.html">gen.Data.glmFormula</a></td>
+<td>Simulate Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="gen.Data.html">gen.Data.lmFormula</a></td>
+<td>Simulate Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="gen.Data.html">gen.Data.tsm</a></td>
+<td>Simulate Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="gen.Params.html">gen.Params</a></td>
+<td>Simulate parameters</td></tr>
+<tr><td style="width: 25%;"><a href="gen.Params.html">gen.Params.lmFormula</a></td>
+<td>Simulate parameters</td></tr>
+<tr><td style="width: 25%;"><a href="gen.Params.html">gen.Params.tsm</a></td>
+<td>Simulate parameters</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Mean</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Mean.Arima</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Mean.default</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Mean.fmo</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Mean.lm</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Med</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Med.Arima</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Med.default</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Med.fmo</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.Med.lm</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.SS</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.SS.Arima</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.SS.default</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.SS.fmo</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="holdout.SS.html">holdout.SS.lm</a></td>
+<td>Holdout Sample Prediction Errors</td></tr>
+<tr><td style="width: 25%;"><a href="make.Model.List.Reg.html">make.Model.List.Reg</a></td>
+<td>Make Model Lists</td></tr>
+<tr><td style="width: 25%;"><a href="make.Model.List.Reg.html">make.Model.List.TS</a></td>
+<td>Make Model Lists</td></tr>
+<tr><td style="width: 25%;"><a href="num.Terms.html">num.Terms</a></td>
+<td>Number of terms (parameters) in a model</td></tr>
+<tr><td style="width: 25%;"><a href="num.Terms.html">num.Terms.formula</a></td>
+<td>Number of terms (parameters) in a model</td></tr>
+<tr><td style="width: 25%;"><a href="num.Terms.html">num.Terms.tsm</a></td>
+<td>Number of terms (parameters) in a model</td></tr>
+<tr><td style="width: 25%;"><a href="plot.msc.html">plot.msc</a></td>
+<td>Display an msc object</td></tr>
+<tr><td style="width: 25%;"><a href="PRESS.html">PRESS</a></td>
+<td>PRESS</td></tr>
+<tr><td style="width: 25%;"><a href="PRESS.html">PRESS.fmo</a></td>
+<td>PRESS</td></tr>
+<tr><td style="width: 25%;"><a href="PRESS.html">PRESS.lm</a></td>
+<td>PRESS</td></tr>
+<tr><td style="width: 25%;"><a href="print.msc.html">print.msc</a></td>
+<td>Default print method for an msc object</td></tr>
+<tr><td style="width: 25%;"><a href="print.summary.msc.html">print.summary.msc</a></td>
+<td>Default print method for a summary of an msc object</td></tr>
+<tr><td style="width: 25%;"><a href="print.tsm.html">print.tsm</a></td>
+<td>Default print method for a tsm object</td></tr>
+<tr><td style="width: 25%;"><a href="sarima.Sim.html">sarima.Sim</a></td>
+<td>Simulate from a specified SARIMA model</td></tr>
+<tr><td style="width: 25%;"><a href="sgnf.html">sgnf</a></td>
+<td>Significance of an msc object</td></tr>
+<tr><td style="width: 25%;"><a href="splitTrainTest.html">splitTrainTest</a></td>
+<td>Split a time series into training and testing sets</td></tr>
+<tr><td style="width: 25%;"><a href="subsets.html">subsets</a></td>
+<td>Generate all the combinations of k out of n elements</td></tr>
+<tr><td style="width: 25%;"><a href="print.summary.msc.html">summary.msc</a></td>
+<td>Default print method for a summary of an msc object</td></tr>
+<tr><td style="width: 25%;"><a href="TMC.html">TMC</a></td>
+<td>Compare model selection criteria</td></tr>
+<tr><td style="width: 25%;"><a href="weight.Only.N.html">weight.Only.N</a></td>
+<td>Weight Only Models of Size N</td></tr>
+<tr><td style="width: 25%;"><a href="weightsGivenSize.html">weightsGivenSize</a></td>
+<td>Generate weight vector based on prior on model size</td></tr>
+</table>
+</div></body></html>

@@ -1,0 +1,46 @@
+BM                      Brownian motion, Brownian bridge, and geometric
+                        Brownian motion simulators
+DBridge                 Simulation of diffusion bridge
+DWJ                     Weekly closings of the Dow-Jones industrial
+                        average
+EULERloglik             Euler approximation of the likelihood
+HPloglik                Ait-Sahalia Hermite polynomial expansion
+                        approximation of the likelihood
+MOdist                  Markov Operator distance for clustering
+                        diffusion processes.
+SIMloglik               Pedersen's approximation of the likelihood
+cpoint                  Volatility change-point estimator for diffusion
+                        processes
+dcElerian               Approximated conditional law of a diffusion
+                        process by Elerian's method
+dcEuler                 Approximated conditional law of a diffusion
+                        process
+dcKessler               Approximated conditional law of a diffusion
+                        process by Kessler's method
+dcOzaki                 Approximated conditional law of a diffusion
+                        process by Ozaki's method
+dcShoji                 Approximated conditional law of a diffusion
+                        process by the Shoji-Ozaki method
+dcSim                   Pedersen's simulated transition density
+gmm                     Generalized method of moments estimator
+ksdrift                 Nonparametric invariant density, drift, and
+                        diffusion coefficient estimation
+linear.mart.ef          Linear martingale estimating function
+quotes                  Daily closings of 20 financial time series from
+                        2006-01-03 to 2007-12-31
+rcBS                    Black-Scholes-Merton or geometric Brownian
+                        motion process conditional law
+rcCIR                   Conditional law of the Cox-Ingersoll-Ross
+                        process
+rcOU                    Ornstein-Uhlenbeck or Vasicek process
+                        conditional law
+rsCIR                   Cox-Ingersoll-Ross process stationary law
+rsOU                    Ornstein-Uhlenbeck or Vasicek process
+                        stationary law
+sde.sim                 Simulation of stochastic differential equation
+sdeAIC                  Akaike's information criterion for diffusion
+                        processes
+sdeDiv                  Phi-Divergences test for diffusion processes
+simple.ef               Simple estimating functions of types I and II
+simple.ef2              Simple estimating function based on the
+                        infinitesimal generator a the diffusion process

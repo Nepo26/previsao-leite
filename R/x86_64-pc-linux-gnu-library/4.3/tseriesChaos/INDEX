@@ -1,0 +1,21 @@
+C2                      Sample correlation integral
+d2                      Sample correlation integral (at multiple length
+                        scales)
+duffing.syst            Duffing oscillator
+embedd                  Embedding of a time series
+false.nearest           Method of false nearest neighbours
+lorenz.syst             Lorenz system
+lorenz.ts               Lorenz simulated time series, without noise
+lyap                    Tools to evaluate the maximal Lyapunov exponent
+                        of a dynamic system
+mutual                  Average Mutual Information
+plot.ami                Plotting average mutual information index
+plot.d2                 Plotting sample correlation integrals
+plot.false.nearest      Plotting false nearest neighbours results
+print.d2                Printing sample correlation integrals
+print.false.nearest     Printing false nearest neighbours results
+recurr                  Recurrence plot
+rossler.syst            Roessler system of equations
+rossler.ts              Roessler simulated time series, without noise
+sim.cont                Simulates a continuous dynamic system
+stplot                  Space-time separation plot

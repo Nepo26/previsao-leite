@@ -1,0 +1,86 @@
+CoDa_BayesNW            Compositional data analytic approach and
+                        nonparametric function-on-function regression
+                        for forecasting density
+CoDa_FPCA               Compositional data analytic approach and
+                        functional principal component analysis for
+                        forecasting density
+DJI_return              Dow Jones Industrial Average (DJIA)
+ER_GR                   Selection of the number of principal components
+GAEVforecast            Fit a generalized additive extreme value model
+                        to the functional data with given basis numbers
+Horta_Ziegelmann_FPCA   Dynamic functional principal component analysis
+                        for density forecasting
+LQDT_FPCA               Log quantile density transform
+MAF_multivariate        Maximum autocorrelation factors
+MFDM                    Multilevel functional data method
+MFPCA                   Multilevel functional principal component
+                        analysis for clustering
+T_stationary            Testing stationarity of functional time series
+centre                  Mean function, variance function, median
+                        function, trim mean function of functional data
+diff.fts                Differences of a functional time series
+dmfpca                  Dynamic multilevel functional principal
+                        component analysis
+dynamic_FLR             Dynamic updates via functional linear
+                        regression
+dynupdate               Dynamic updates via BM, OLS, RR and PLS methods
+error                   Forecast error measure
+extract                 Extract variables or observations
+facf                    Functional autocorrelation function
+farforecast             Functional data forecasting through functional
+                        principal component autoregression
+fbootstrap              Bootstrap independent and identically
+                        distributed functional data
+forecast.ftsm           Forecast functional time series
+forecast.hdfpca         Forecasting via a high-dimensional functional
+                        principal component regression
+forecastfplsr           Forecast functional time series
+fplsr                   Functional partial least squares regression
+ftsa-package            Functional Time Series Analysis
+ftsm                    Fit functional time series model
+ftsmiterativeforecasts
+                        Forecast functional time series
+ftsmweightselect        Selection of the weight parameter used in the
+                        weighted functional time series model.
+hd_data                 Simulated high-dimensional functional time
+                        series
+hdfpca                  High-dimensional functional principal component
+                        analysis
+is.fts                  Test for functional time series
+isfe.fts                Integrated Squared Forecast Error for models of
+                        various orders
+long_run_covariance_estimation
+                        Estimating long-run covariance function for a
+                        functional time series
+mean.fts                Mean functions for functional time series
+median.fts              Median functions for functional time series
+mftsc                   Multiple funtional time series clustering
+pcscorebootstrapdata    Bootstrap independent and identically
+                        distributed functional data or functional time
+                        series
+plot.fm                 Plot fitted model components for a functional
+                        model
+plot.fmres              Plot residuals from a fitted functional model.
+plot.ftsf               Plot fitted model components for a functional
+                        time series model
+plot.ftsm               Plot fitted model components for a functional
+                        time series model
+plotfplsr               Plot fitted model components for a functional
+                        time series model
+pm_10_GR                Particulate Matter Concentrations (pm10)
+quantile                Quantile
+quantile.fts            Quantile functions for functional time series
+residuals.fm            Compute residuals from a functional model
+sd                      Standard deviation
+sd.fts                  Standard deviation functions for functional
+                        time series
+sim_ex_cluster          Simulated multiple sets of functional time
+                        series
+skew_t_fun              Skewed t distribution
+stop_time_detect        Detection of the optimal stopping time in a
+                        curve time series
+stop_time_sim_data      Simulated functional time series from a
+                        functional autoregression of order one
+summary.fm              Summary for functional time series model
+var                     Variance
+var.fts                 Variance functions for functional time series

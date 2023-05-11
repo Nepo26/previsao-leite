@@ -1,0 +1,57 @@
+as.data.frame.demogdata
+                        Coerce a demogdata object to a data.frame
+                        object
+aus.fert                Australian fertility data
+cm.spline               Monotonic interpolating splines
+coherentfdm             Coherent functional demographic model for
+                        grouped data
+combine.demogdata       Combine two demogdata objects into one
+                        demogdata object
+compare.demogdata       Evaluation of demographic forecast accuracy
+demogdata               Create demogdata object from raw data matrices
+demography-package      Forecasting mortality and fertility data
+extract.ages            Extract some ages from a demogdata object
+extract.years           Extract some years from a demogdata object
+fdm                     Functional demographic model
+forecast.fdm            Forecast functional demographic model.
+forecast.fdmpr          Forecast coherent functional demographic model.
+forecast.lca            Forecast demogdata data using Lee-Carter
+                        method.
+fr.mort                 French mortality data
+hmd                     Read data from HMD and construct a mortality
+                        demogdata object
+isfe                    Integrated Squared Forecast Error for models of
+                        various orders
+lca                     Model mortality or fertility data using
+                        Lee-Carter approach
+life.expectancy         Estimate life expectancy from mortality rates
+lifetable               Construct lifetables from mortality rates
+mean.demogdata          Mean and median functions for data of class
+                        demogdata
+models                  Show model information for the forecast
+                        coefficients in FDM models.
+netmigration            Calculate net migration from mortality and
+                        fertility data
+plot.demogdata          Plot age-specific demographic functions
+plot.errorfdm           Plot differences between actuals and estimates
+                        from fitted demographic model
+plot.fmforecast         Plot forecasts from a functional demographic
+                        modell
+plot.lifetable          Plot life expectancy from lifetable
+pop.sim                 Population simulation
+read.demogdata          Read demographic data and construct demogdata
+                        object
+residuals.fdm           Compute residuals and fitted values from
+                        functional demographic model or Lee-Carter
+                        model
+set.upperage            Combine the upperages of a demogdata object.
+sex.ratio               Compute sex ratios from mortality rates
+simulate.fmforecast     Simulate future sample paths from functional
+                        demographic model forecasts.
+smooth.demogdata        Create smooth demogdata functions
+summary.fdm             Summary for functional demographic model or
+                        Lee-Carter model
+tfr                     Compute total fertility rate from fertility
+                        rates
+update                  Updating functional demographic models and
+                        coherent functional demographic models.

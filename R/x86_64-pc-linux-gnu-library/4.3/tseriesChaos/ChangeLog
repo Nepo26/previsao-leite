@@ -1,0 +1,43 @@
+0.1-12: 24/04/2013
+drop use of 'synopsis' in Rd files, as it's about to be removed from R
+replace dependency on 'odesolve' with the more recent (and maintained) 'deSolve'
+
+0.1-11: 16/09/2010
+'embedd' now handles multivariate time series. Patch by Jonathan Shore
+
+0.1-10: 24/02/2010
+fix bug in d2.c: crashing on corner cases. Patch by B. Ripley
+
+0.1-9:
+fixed embedd.Rd syntax warning under R-2.9.0-devel
+
+0.1-8:
+fixed mantainer mail field in DESCRIPTION
+
+0.1-7:
+fixed strings for R 2.5.0
+
+0.1-6:
+fixed docs for the new R 2.3.0 release
+
+0.1-5:
+added plotting options to 'mutual'
+improved recurrence plot
+cleaned R code
+
+0.1-4:
+fixed 'tseriesChaos.h' global variables declaration (now as extern, and defined in 'misc.c')
+
+0.1-3:
+Re-organized box-assisted neighbours searching routines: now more object oriented
+Extended 'embedd' functionalities (now uses 'lag'). Cleaned 'lyap' code.
+Added changelog.
+Added comments to C code.
+
+0.1-2:
+More object orientation.
+Added comments to C code.
+
+0.1-1:
+Added efficient box-assisted neighbours searching to functions 'lyap_k' and 'false.nearest'.
+Cleaned C code.

@@ -1,0 +1,44 @@
+## Hmm: "Need NAMESPACE"
+## as otherwise 'Lazydata' make the data sets part of the package object
+
+importFrom("graphics", lines, mtext, plot)
+
+importFrom("utils", str)
+importFrom("stats"
+         , Gamma
+         , fft
+         , as.formula, glm
+         , nobs, printCoefmat, update
+         , optim, optimize
+         , pnorm
+         , rnorm, rexp, runif
+         , sd, ts)
+
+## --------------
+
+export(CetaARIMA, CetaFGN,
+       ckARMA0, ckFGN0,
+       FEXPest, WhittleEst,
+       llplot, lxplot, per, .ffreq,
+       Qeta,
+       simFGN.fft, simARMA0, simFGN0, simGauss,
+       specARIMA, specFGN, B.specFGN)
+
+S3method(coef, FEXP)
+S3method(coef, WhittleEst)
+
+S3method(nobs, FEXP)
+S3method(nobs, WhittleEst)
+
+S3method(vcov, FEXP)
+S3method(vcov, WhittleEst)
+
+S3method(lines, FEXP)
+S3method(lines, WhittleEst)
+S3method(plot, FEXP)
+S3method(plot, WhittleEst)
+S3method(print,FEXP)
+S3method(print,WhittleEst)
+
+
+

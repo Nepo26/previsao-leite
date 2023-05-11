@@ -1,0 +1,26 @@
+Ausmortality            Australia and Australian state mortality rates
+Biscuit                 Biscuit dough piece data
+Cancerrate              Breast Cancer Data
+ECBYieldcurve           Yield curve data spot rate
+Electricityconsumption
+                        Electricity consumption time series
+Electricitydemand       Electricity demand in Adelaide
+Fat                     Fat content spectrometric data
+FedYieldcurve           Federal Reserve interest rate
+Moisture                Moisture content spectrometric data
+Octane                  Octane content spectrometric data
+Phoneme                 Phoneme data
+Pigweight               Pig weight data
+SOI                     Annual Southern Oscillation Index (SOI) for the
+                        period 1900-2004.
+Satellite               Satellite topex/poseidon
+Spanishmigration        Spanish migration from 1999 to 2003
+Yieldcurve              US: Treasury bond
+fds-package             Functional data sets
+hmdcountry              Function to read a bundle of data sets from the
+                        Human Mortality Database
+hmdstatistic            Function to read a bundle of data sets from the
+                        Human Mortality Database
+mondaytempkent          Temperatures in South Australia
+read.hmd                Function to read data sets from the Human
+                        Mortality Database

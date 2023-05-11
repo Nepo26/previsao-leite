@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Forecasting Mortality, Fertility, Migration and Population Data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Forecasting Mortality, Fertility, Migration and Population Data
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;demography&rsquo; version 2.0</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="demography-package.html">demography-package</a></td>
+<td>Forecasting mortality and fertility data</td></tr>
+<tr><td style="width: 25%;"><a href="as.data.frame.demogdata.html">as.data.frame.demogdata</a></td>
+<td>Coerce a demogdata object to a data.frame object</td></tr>
+<tr><td style="width: 25%;"><a href="ausfert.html">aus.fert</a></td>
+<td>Australian fertility data</td></tr>
+<tr><td style="width: 25%;"><a href="lca.html">bms</a></td>
+<td>Model mortality or fertility data using Lee-Carter approach</td></tr>
+<tr><td style="width: 25%;"><a href="cm.spline.html">cm.spline</a></td>
+<td>Monotonic interpolating splines</td></tr>
+<tr><td style="width: 25%;"><a href="cm.spline.html">cm.splinefun</a></td>
+<td>Monotonic interpolating splines</td></tr>
+<tr><td style="width: 25%;"><a href="coherentfdm.html">coherentfdm</a></td>
+<td>Coherent functional demographic model for grouped data</td></tr>
+<tr><td style="width: 25%;"><a href="combine.demogdata.html">combine.demogdata</a></td>
+<td>Combine two demogdata objects into one demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="compare.demogdata.html">compare.demogdata</a></td>
+<td>Evaluation of demographic forecast accuracy</td></tr>
+<tr><td style="width: 25%;"><a href="demogdata.html">demogdata</a></td>
+<td>Create demogdata object from raw data matrices</td></tr>
+<tr><td style="width: 25%;"><a href="demography-package.html">demography</a></td>
+<td>Forecasting mortality and fertility data</td></tr>
+<tr><td style="width: 25%;"><a href="life.expectancy.html">e0</a></td>
+<td>Estimate life expectancy from mortality rates</td></tr>
+<tr><td style="width: 25%;"><a href="extract.ages.html">extract.ages</a></td>
+<td>Extract some ages from a demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="extract.years.html">extract.years</a></td>
+<td>Extract some years from a demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="fdm.html">fdm</a></td>
+<td>Functional demographic model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.fdm.html">fitted.fdm</a></td>
+<td>Compute residuals and fitted values from functional demographic model or Lee-Carter model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.fdm.html">fitted.lca</a></td>
+<td>Compute residuals and fitted values from functional demographic model or Lee-Carter model</td></tr>
+<tr><td style="width: 25%;"><a href="life.expectancy.html">flife.expectancy</a></td>
+<td>Estimate life expectancy from mortality rates</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.fdm.html">forecast.fdm</a></td>
+<td>Forecast functional demographic model.</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.fdmpr.html">forecast.fdmpr</a></td>
+<td>Forecast coherent functional demographic model.</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.lca.html">forecast.lca</a></td>
+<td>Forecast demogdata data using Lee-Carter method.</td></tr>
+<tr><td style="width: 25%;"><a href="fr.mort.html">fr.mort</a></td>
+<td>French mortality data</td></tr>
+<tr><td style="width: 25%;"><a href="fr.mort.html">fr.sm</a></td>
+<td>French mortality data</td></tr>
+<tr><td style="width: 25%;"><a href="hmd.html">hmd</a></td>
+<td>Read data from HMD and construct a mortality demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="hmd.html">hmd.e0</a></td>
+<td>Read data from HMD and construct a mortality demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="hmd.html">hmd.mx</a></td>
+<td>Read data from HMD and construct a mortality demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="hmd.html">hmd.pop</a></td>
+<td>Read data from HMD and construct a mortality demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="isfe.html">isfe</a></td>
+<td>Integrated Squared Forecast Error for models of various orders</td></tr>
+<tr><td style="width: 25%;"><a href="isfe.html">isfe.demogdata</a></td>
+<td>Integrated Squared Forecast Error for models of various orders</td></tr>
+<tr><td style="width: 25%;"><a href="lca.html">lca</a></td>
+<td>Model mortality or fertility data using Lee-Carter approach</td></tr>
+<tr><td style="width: 25%;"><a href="life.expectancy.html">life.expectancy</a></td>
+<td>Estimate life expectancy from mortality rates</td></tr>
+<tr><td style="width: 25%;"><a href="lifetable.html">lifetable</a></td>
+<td>Construct lifetables from mortality rates</td></tr>
+<tr><td style="width: 25%;"><a href="plot.demogdata.html">lines.demogdata</a></td>
+<td>Plot age-specific demographic functions</td></tr>
+<tr><td style="width: 25%;"><a href="plot.lifetable.html">lines.lifetable</a></td>
+<td>Plot life expectancy from lifetable</td></tr>
+<tr><td style="width: 25%;"><a href="mean.demogdata.html">mean.demogdata</a></td>
+<td>Mean and median functions for data of class demogdata</td></tr>
+<tr><td style="width: 25%;"><a href="mean.demogdata.html">median.demogdata</a></td>
+<td>Mean and median functions for data of class demogdata</td></tr>
+<tr><td style="width: 25%;"><a href="models.html">models</a></td>
+<td>Show model information for the forecast coefficients in FDM models.</td></tr>
+<tr><td style="width: 25%;"><a href="models.html">models.fmforecast</a></td>
+<td>Show model information for the forecast coefficients in FDM models.</td></tr>
+<tr><td style="width: 25%;"><a href="models.html">models.fmforecast2</a></td>
+<td>Show model information for the forecast coefficients in FDM models.</td></tr>
+<tr><td style="width: 25%;"><a href="cm.spline.html">monotonic</a></td>
+<td>Monotonic interpolating splines</td></tr>
+<tr><td style="width: 25%;"><a href="migration.html">netmigration</a></td>
+<td>Calculate net migration from mortality and fertility data</td></tr>
+<tr><td style="width: 25%;"><a href="plot.demogdata.html">plot.demogdata</a></td>
+<td>Plot age-specific demographic functions</td></tr>
+<tr><td style="width: 25%;"><a href="plot.errorfdm.html">plot.errorfdm</a></td>
+<td>Plot differences between actuals and estimates from fitted demographic model</td></tr>
+<tr><td style="width: 25%;"><a href="plot.fmforecast.html">plot.fmforecast</a></td>
+<td>Plot forecasts from a functional demographic modell</td></tr>
+<tr><td style="width: 25%;"><a href="plot.fmforecast.html">plot.lca</a></td>
+<td>Plot forecasts from a functional demographic modell</td></tr>
+<tr><td style="width: 25%;"><a href="plot.lifetable.html">plot.lifetable</a></td>
+<td>Plot life expectancy from lifetable</td></tr>
+<tr><td style="width: 25%;"><a href="plot.demogdata.html">points.demogdata</a></td>
+<td>Plot age-specific demographic functions</td></tr>
+<tr><td style="width: 25%;"><a href="pop.sim.html">pop.sim</a></td>
+<td>Population simulation</td></tr>
+<tr><td style="width: 25%;"><a href="read.demogdata.html">read.demogdata</a></td>
+<td>Read demographic data and construct demogdata object</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.fdm.html">residuals.fdm</a></td>
+<td>Compute residuals and fitted values from functional demographic model or Lee-Carter model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.fdm.html">residuals.lca</a></td>
+<td>Compute residuals and fitted values from functional demographic model or Lee-Carter model</td></tr>
+<tr><td style="width: 25%;"><a href="set.upperage.html">set.upperage</a></td>
+<td>Combine the upperages of a demogdata object.</td></tr>
+<tr><td style="width: 25%;"><a href="sex.ratio.html">sex.ratio</a></td>
+<td>Compute sex ratios from mortality rates</td></tr>
+<tr><td style="width: 25%;"><a href="simulate.fmforecast.html">simulate.fmforecast</a></td>
+<td>Simulate future sample paths from functional demographic model forecasts.</td></tr>
+<tr><td style="width: 25%;"><a href="simulate.fmforecast.html">simulate.fmforecast2</a></td>
+<td>Simulate future sample paths from functional demographic model forecasts.</td></tr>
+<tr><td style="width: 25%;"><a href="smooth.demogdata.html">smooth.demogdata</a></td>
+<td>Create smooth demogdata functions</td></tr>
+<tr><td style="width: 25%;"><a href="summary.fdm.html">summary.fdm</a></td>
+<td>Summary for functional demographic model or Lee-Carter model</td></tr>
+<tr><td style="width: 25%;"><a href="summary.fdm.html">summary.lca</a></td>
+<td>Summary for functional demographic model or Lee-Carter model</td></tr>
+<tr><td style="width: 25%;"><a href="tfr.html">tfr</a></td>
+<td>Compute total fertility rate from fertility rates</td></tr>
+<tr><td style="width: 25%;"><a href="update.html">update</a></td>
+<td>Updating functional demographic models and coherent functional demographic models.</td></tr>
+<tr><td style="width: 25%;"><a href="update.html">update.fmforecast</a></td>
+<td>Updating functional demographic models and coherent functional demographic models.</td></tr>
+<tr><td style="width: 25%;"><a href="update.html">update.fmforecast2</a></td>
+<td>Updating functional demographic models and coherent functional demographic models.</td></tr>
+</table>
+</div></body></html>

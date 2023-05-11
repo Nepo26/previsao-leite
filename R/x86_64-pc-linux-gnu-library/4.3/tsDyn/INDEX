@@ -1,0 +1,84 @@
+BBCTest                 Test of unit root against SETAR alternative
+GIRF                    Generalized Impulse response Function (GIRF)
+IIPUs                   US monthly industrial production from Hansen
+                        (1999)
+KapShinTest             Test of unit root against SETAR alternative
+                        with
+LINEAR                  Linear AutoRegressive models
+LSTAR                   Logistic Smooth Transition AutoRegressive model
+MAPE                    Mean Absolute Percent Error
+MakeThSpec              Specification of the threshold search
+NNET                    Neural Network nonlinear autoregressive model
+SETAR                   Self Threshold Autoregressive model
+STAR                    STAR model
+TVAR                    Multivariate Threshold Vector Autoregressive
+                        model
+TVAR.LRtest             Test of linearity
+TVAR.sim                Simulation of a multivariate Threshold
+                        Autoregressive model (TVAR)
+TVECM                   Threshold Vector Error Correction model (VECM)
+TVECM.HStest            Test of linear cointegration vs threshold
+                        cointegration
+TVECM.SeoTest           No cointegration vs threshold cointegration
+                        test
+TVECM.sim               Simulation and bootstrap a VECM or bivariate
+                        TVECM
+UsUnemp                 US unemployment series used in Caner and Hansen
+                        (2001)
+VAR.sim                 Simulate or bootstrap a VAR model
+VARrep                  VAR representation
+VECM                    Estimation of Vector error correction model
+                        (VECM)
+VECM_symbolic           Virtual VECM model
+aar                     Additive nonlinear autoregressive model
+accuracy_stat           Forecasting accuracy measures.
+addRegime               addRegime test
+ar_mean                 Long-term mean of an AR(p) process
+autopairs               Bivariate time series plots
+autotriples             Trivariate time series plots
+autotriples.rgl         Interactive trivariate time series plots
+availableModels         Available models
+barry                   Time series of PPI used as example in Bierens
+                        and Martins (2010)
+charac_root             Characteristic roots of the AR coefficients
+coefB                   Extract cointegration parameters A, B and PI
+delta                   delta test of conditional independence
+delta.lin               delta test of linearity
+fevd.nlVar              Forecast Error Variance Decomposition
+fitted.nlVar            fitted method for objects of class nlVar, i.e.
+                        VAR and VECM models.
+getTh                   Extract threshold(s) coefficient
+irf.linear              Impulse response function
+isLinear                isLinear
+lags.select             Selection of the lag with Information
+                        criterion.
+lineVar                 Multivariate linear models: VAR and VECM
+llar                    Locally linear model
+logLik.nlVar            Extract Log-Likelihood
+m.unrate                Monthly US unemployment
+mse                     Mean Square Error
+nlar-methods            NLAR methods
+plot-methods            Plotting methods for SETAR and LSTAR subclasses
+plot_ECT                Plot the Error Correct Term (ECT) response
+predict.TVAR            Predict method for objects of class "VAR",
+                        "VECM" or "TVAR"
+predict.nlar            Predict method for objects of class "nlar".
+predict_rolling         Rolling forecasts
+rank.select             Selection of the cointegrating rank with
+                        Information criterion.
+rank.test               Test of the cointegrating rank
+regime                  Extract a variable showing the regime
+resVar                  Residual variance
+resample_vec            Resampling schemes
+selectLSTAR             Automatic selection of model hyper-parameters
+selectSETAR             Automatic selection of SETAR hyper-parameters
+setar.sim               Simulation and bootstrap of Threshold
+                        Autoregressive model (SETAR)
+setarTest               Test of linearity against threshold (SETAR)
+setarTest_IIPUs_results
+                        Results from the setarTest, applied on Hansen
+                        (1999) data
+sigmoid                 sigmoid functions
+toLatex.setar           Latex representation of fitted setar models
+tsDyn-package           Getting started with the tsDyn package
+zeroyld                 zeroyld time series

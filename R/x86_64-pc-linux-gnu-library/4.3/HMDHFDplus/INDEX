@@ -1,0 +1,38 @@
+HFCparse                HFCparse internal function for modifying
+                        freshly read HCD data in its standard form
+HFDparse                internal function for modifying freshly read
+                        HFD data in its standard form
+HMDparse                internal function for modifying freshly read
+                        HMD data in its standard form
+age2int                 'age2int()' convert the Age column from
+                        standard HMD or HFD tables to integer
+getCHMDprovinces        get a named vector of CHMD province codes
+getHFCcountries         getHFCcountries a function to grab all present
+                        country codes used in the Human Fertility
+                        Collection
+getHFDcountries         internal function for grabbing the HFD country
+                        short codes.
+getHFDdate              internal function for grabbing the date of last
+                        update for a given HFD country
+getHFDitemavail         List the available data item names for a given
+                        HFD country.
+getHMDcountries         internal function for grabbing the HMD country
+                        short codes.
+getHMDitemavail         internal function for grabbing the available
+                        data item names for a given country.
+getJMDprefectures       get a named vector of JMD prefecture codes
+readCHMDweb             read data from the Canadian Human Mortality
+                        Database into R
+readHFCweb              readHFCweb get HFC data straight from the web
+                        into R!
+readHFD                 'readHFD()' reads a standard HFD .txt table as
+                        a 'data.frame'
+readHFDweb              read an HFD data file directly from the web as
+                        an R data.frame
+readHMD                 'readHMD()' reads a standard HMD .txt table as
+                        a 'data.frame'
+readHMDweb              readHMDweb a basic HMD data grabber.
+readJMDweb              read data from the Japan Mortality Database
+                        into R
+userInput               userInput let the user type in a character
+                        string

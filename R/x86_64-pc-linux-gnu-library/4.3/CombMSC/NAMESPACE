@@ -1,0 +1,49 @@
+# Default NAMESPACE created by R
+# Remove the previous line if you edit this file
+
+# Export all names
+exportPattern(".")
+
+importFrom("grDevices", "gray")
+importFrom("graphics", "lines", "plot")
+importFrom("stats", "AIC", "arima", "arima.sim", "as.formula",
+           "binomial", "delete.response", "glm", "hatvalues", "lm",
+           "median", "model.frame", "model.matrix", "predict",
+           "rbinom", "rnorm", "runif", "terms", "ts")
+
+S3method(AIC, fmo)
+S3method(Adj.Rsq, fmo)
+S3method(Adj.Rsq, lm)
+S3method(BIC, fmo)
+S3method(Cp, fmo)
+S3method(Cp, lm)
+S3method(PRESS, fmo)
+S3method(PRESS, lm)
+S3method(fit.Models, glmFormula)
+S3method(fit.Models, lmFormula)
+S3method(fit.Models, tsm)
+S3method(gen.Data, glmFormula)
+S3method(gen.Data, lmFormula)
+S3method(gen.Data, tsm)
+S3method(gen.Params, lmFormula)
+S3method(gen.Params, tsm)
+S3method(holdout.Mean, Arima)
+S3method(holdout.Mean, default)
+S3method(holdout.Mean, fmo)
+S3method(holdout.Mean, lm)
+S3method(holdout.Med, Arima)
+S3method(holdout.Med, default)
+S3method(holdout.Med, fmo)
+S3method(holdout.Med, lm)
+S3method(holdout.SS, Arima)
+S3method(holdout.SS, default)
+S3method(holdout.SS, fmo)
+S3method(holdout.SS, lm)
+S3method(num.Terms, formula)
+S3method(num.Terms, tsm)
+S3method(plot, msc)
+S3method(print, msc)
+S3method(print, summary.msc)
+S3method(print, tsm)
+S3method(summary, msc)
+

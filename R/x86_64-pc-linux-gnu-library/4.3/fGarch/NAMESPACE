@@ -1,0 +1,182 @@
+################################################
+## useDynLib
+################################################
+
+useDynLib("fGarch", .registration=TRUE)
+
+################################################
+## import (from) name spaces
+################################################
+
+importFrom("timeDate", timeDate, timeSequence)
+
+importFrom("timeSeries", as.timeSeries, timeSeries
+       ##, dummyDailySeries  # in Examples and tests
+         , description
+         , isUnivariate, isMultivariate)
+
+importFrom("fBasics",
+           Heaviside, jarqueberaTest
+       ##, teffectPlot  # used in test
+         , dsnig, qsnig
+         , volatility # we will re-export, as we define an S3 method
+         , .distCheck, .sliderMenu)
+
+## importFrom("fastICA", fastICA)# only used in  R/mgarch-FitFromFormula.R  .gogarchFit()
+
+importFrom("cvar", VaR, ES)
+
+importFrom(Matrix, Matrix)# only in  R/garch-Hessian.R
+
+importFrom("graphics", abline, grid, hist, legend, lines,
+           par, polygon, title)
+
+importFrom("methods", new, show, slot, slotNames)
+
+importFrom("stats", Box.test, acf, arima, as.formula, ccf,
+           density, dnorm, dt, filter, integrate, lm,
+           model.frame, na.omit, nlminb, optim, optimHess,
+           pchisq, pgamma, pnorm, ppoints, printCoefmat,
+           pt, qgamma, qnorm, qt, quantile, rgamma,
+           rnorm, rt, runif, sd, shapiro.test, summary.lm,
+           terms, var)
+
+importFrom("utils", capture.output, menu)
+
+
+
+################################################
+## S4 classes
+################################################
+
+exportClasses("fGARCH",
+              "fGARCHSPEC",
+              "fUGARCHSPEC" )
+exportMethods("coef",
+              "fitted",
+              "formula",
+              "plot",
+              "predict",
+              "residuals",
+              "show",
+              "summary",
+              "update" )
+
+################################################
+## S3 classes
+################################################
+
+S3method("volatility", "fGARCH")
+export(volatility) # we imported from fBasics
+
+################################################
+## functions
+################################################
+
+export(
+    ".QMLECondDist",
+    ".aparchLLH.filter",
+    ".aparchLLH.internal",
+    ".aparchLLH.testing",
+    ".dsged",
+    ".dsnorm",
+    ".dsstd",
+    ".garchArgsParser",
+    ".garchFit",
+    ".garchInitParameters",
+    ".garchInitSeries",
+    ".garchKappaFun",
+    ".garchLLH",
+    ".garchModelSeries",
+    ".garchNames",
+    ".garchOptimizeLLH",
+    ".garchOptimizerControl",
+    ".garchRCDAGradient",
+    ".garchRCDAHessian",
+    ".garchRlbfgsb",
+    ".garchRnlminb",
+    ".garchRnm",
+    ".garchRoptimhess",
+    ".garchSetCondDist",
+    ".garchTSHessian",
+    ".gedCondDist",
+    ".gedFit",
+    ".getfGarchEnv",
+    ".gogarchFit",
+    ".hessian2sided",
+    ".interactiveGarchPlot",
+    ".multGarchPlot",
+    ".normCondDist",
+    ".plot.garch.1",
+    ".plot.garch.10",
+    ".plot.garch.11",
+    ".plot.garch.12",
+    ".plot.garch.13",
+    ".plot.garch.2",
+    ".plot.garch.3",
+    ".plot.garch.4",
+    ".plot.garch.5",
+    ".plot.garch.6",
+    ".plot.garch.7",
+    ".plot.garch.8",
+    ".plot.garch.9",
+    ".psged",
+    ".psnorm",
+    ".psstd",
+    ".qqDist",
+    ".qqLine",
+    ".qsged",
+    ".qsnorm",
+    ".qsstd",
+    ".rsged",
+    ".rsnorm",
+    ".rsstd",
+    ".setfGarchEnv",
+    ".sgedCondDist",
+    ".sgedFit",
+    ".snigCondDist",
+    ".snormCondDist",
+    ".snormFit",
+    ".sstdCondDist",
+    ".sstdFit",
+    ".stdCondDist",
+    ".stdFit",
+    ".truePersistence",
+    ".ugarchFit",
+    ".ugarchSpec",
+    "absMoments",
+    "dged",
+    "dsged",
+    "dsnorm",
+    "dsstd",
+    "dstd",
+    "garchFit",
+    "garchFitControl",
+    "garchKappa",
+    "garchSim",
+    "garchSpec",
+    "gedFit",
+    "gedSlider",
+    "pged",
+    "psged",
+    "psnorm",
+    "psstd",
+    "pstd",
+    "qged",
+    "qsged",
+    "qsnorm",
+    "qsstd",
+    "qstd",
+    "rged",
+    "rsged",
+    "rsnorm",
+    "rsstd",
+    "rstd",
+    "sgedFit",
+    "sgedSlider",
+    "snormFit",
+    "snormSlider",
+    "sstdFit",
+    "sstdSlider",
+    "stdFit",
+    "stdSlider" )

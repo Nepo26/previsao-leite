@@ -1,0 +1,24 @@
+COprcp                  Colorado daily precipitation accumulations
+FCtmax                  Fort Collins, Colorado, US daily max.
+                        temperatures
+colplot                 Scatter plot, with variable-based point colours
+dfbind                  Bind a list a data frames
+evgam                   Fitting generalised additive extreme-value
+                        family models
+extremal                Estimate extremal index using 'intervals'
+                        method
+fitted.evgam            Extract Model Fitted Values
+fremantle               Annual Maximum Sea Levels at Fremantle, Western
+                        Australia
+logLik.evgam            Log-likelihood, AIC and BIC from a fitted
+                        'evgam' object
+pinv                    Moore-Penrose pseudo-inverse of a matrix
+plot.evgam              Plot a fitted 'evgam' object
+predict.evgam           Predictions from a fitted 'evgam' object
+print.evgam             Print a fitted 'evgam' object
+qev                     Quantile estimation of a composite extreme
+                        value distribution
+runmax                  Running maximum
+seq_between             More Sequence Generation
+simulate.evgam          Simulations from a fitted 'evgam' object
+summary.evgam           Summary method for a fitted 'evgam' object

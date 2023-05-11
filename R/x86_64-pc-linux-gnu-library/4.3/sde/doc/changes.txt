@@ -1,0 +1,116 @@
+Changes from sde_2.0.8 to sde_2.0.11:
+	fixed package building issues
+Changes from sde_2.0.8 to sde_2.0.10:
+	fixed code for dcKessler
+	changed code in MOdist to use L1 distance
+	instead of L2-type
+Changes from sde_2.0.7 to sde_2.0.8:
+	when checking stationarity of OU no
+	error is produced, just a message
+Changes from sde_2.0.5 to sde_2.0.7:
+	fixed script ex1.14.R to match the errata corrige
+	added errata corrige for the book as vignette
+
+Changes from sde_2.0.5 to sde_2.0.6:
+	fixed typo in DESCRIPTION file
+
+Changes from sde_2.0.2 to sde_2.0.5:
+	fixed code cpoint function, the index was shifted by 1
+	fixed dates in DWJ data set
+
+Changes from sde_2.0.0 to sde_2.0.2:
+	added code for MOdist
+	added code for sdeDiv
+
+Changes from sde_1.9.32 to sde_2.0.0:
+	fixed code for sdeAIC. Vectorization was failing.
+ 
+# 2.0.0 corresponds to first print of the book
+
+Changes from sde_1.9.32 to sde_2.0.0:
+	Latest version before printing (?)
+	All the code of this version coincide 
+	with the content of the book
+	Fixed all manual entries
+	Updated numbers of example code. 
+	Added missing examples
+Changes from sde_1.9.31 to sde_1.9.32:
+1.	added examples: ex3.09 to ex3.15
+2.	fixed gmm function, now function
+	u must be a function of DELTA as well
+
+Changes from sde_1.9.29 to sde_1.9.31:
+1.	fixed code of example ex3.08
+
+Changes from sde_1.9.28 to sde_1.9.29:
+1.	fixed code of example ex3.06
+
+Changes from sde_1.9.24 to sde_1.9.28:
+1. 	fixed documentation entries 
+2.	fixed example ex1.09
+
+Changes from sde_1.9.23 to sde_1.9.24:
+1. 	added minimum contrast estimation in sdeAIC
+
+Changes from sde_1.9.22 to sde_1.9.23:
+1.	added sdeAIC
+
+Changes from sde_1.9.21 to sde_1.9.22:
+1.	added examples to chapters 1 and 4
+
+Changes from sde_1.9.20 to sde_1.9.21:
+1.	remove unsued variables in C code
+2.	removed offending file in R directory
+
+Changes from sde_1.9.18 to sde_1.9.20:
+1.	added cpoint function
+2.	added examples in chapter 4
+3.	added DWJ dataset
+
+Changes from sde_1.9.16 to sde_1.9.18:
+1.	added ksdrift, ksdiff and ksdens functions
+2.	added examples to chapter 4
+
+Changes from sde_1.9.14 to sde_1.9.16:
+1.	added DBridge function
+2.	updated examples
+
+Changes from sde_1.9.13 to sde_1.9.14:
+1.	added gmm function
+
+Changes from sde_1.9.11 to sde_1.9.13:
+1.	fixed .Rd issues
+2.	fixed SIMloglik and cdSim algorithms
+
+Changes from sde_1.9.7 to sde_1.9.11:
+1.	added SIMloglik for Pedersen's simulated likelihood
+2. 	added cdSim, Pedersen's sim. cond. density
+
+Changes from sde_1.9.7 to sde_1.9.10:
+1.	fixed argument naming in optimize()
+2.	fixed code in simple.ef2
+
+Changes from sde_1.9.5 to sde_1.9.7:
+------------------------------------
+1.	added Hermite polynomial expansion log-likelihood approx HPloglik
+2.	added C/Rinterface to calculate Euler approximation of the log-lik
+3.	added simple.ef, simple.ef2 and linear.mart.ef
+
+Changes from sde_1.9.4 to sde_1.9.5:
+------------------------------------
+
+1.  added all examples from charpter 1 and 2; some
+	of chapter 3
+2.  cleaning of internal C code
+
+Changes from sde_1.8 to sde_1.9.4:
+----------------------------------
+
+1.  multiple independet trajectories can be simulated with sde.sim 
+	in all methods with the exclusion of EA
+
+2.  all methods are now implemented at C level with the exclusion
+	of the EA method
+
+3.  added changes.txt file
+

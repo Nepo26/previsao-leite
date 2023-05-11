@@ -1,0 +1,28 @@
+AIC.fmo                 AIC
+Adj.Rsq                 Adjusted R-Squared
+BIC                     Akaike Information Criterion
+CombMSC-package         Combined Model Selection Criteria
+Cp                      Mallows Cp
+PRESS                   PRESS
+TMC                     Compare model selection criteria
+compare                 Compare 2 msc objects
+fit.Models              Generic model fitting
+gen.Data                Simulate Data Sets
+gen.Params              Simulate parameters
+holdout.SS              Holdout Sample Prediction Errors
+make.Model.List.Reg     Make Model Lists
+num.Terms               Number of terms (parameters) in a model
+plot.msc                Display an msc object
+print.msc               Default print method for an msc object
+print.summary.msc       Default print method for a summary of an msc
+                        object
+print.tsm               Default print method for a tsm object
+sarima.Sim              Simulate from a specified SARIMA model
+sgnf                    Significance of an msc object
+splitTrainTest          Split a time series into training and testing
+                        sets
+subsets                 Generate all the combinations of k out of n
+                        elements
+weight.Only.N           Weight Only Models of Size N
+weightsGivenSize        Generate weight vector based on prior on model
+                        size

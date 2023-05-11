@@ -1,0 +1,29 @@
+Package: CombMSC
+Type: Package
+Title: Combined Model Selection Criteria
+Version: 1.4.2.1
+Date: 2008-02-24
+Author: Andrew K. Smith
+Maintainer: Andrew K. Smith <andrewsmith81@gmail.com>
+Description: Functions for computing optimal convex combinations of
+        model selection criteria based on ranks, along with utility
+        functions for constructing model lists, MSCs, and priors on
+        model lists.
+License: GPL-2
+Depends: R(>= 2.4.0)
+Suggests: lattice, rgl
+Packaged: 2023-05-11 03:41:30 UTC; henriquecosta
+Repository: CRAN
+Date/Publication: 2019-01-04 18:23:10 UTC
+NeedsCompilation: no
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: CombMSC
+RemoteUsername: cran
+RemoteRef: HEAD
+RemoteSha: b17252d5f1924a5a7122fb20c6b9e307b41c80cc
+GithubRepo: CombMSC
+GithubUsername: cran
+GithubRef: HEAD
+GithubSHA1: b17252d5f1924a5a7122fb20c6b9e307b41c80cc
+Built: R 4.3.0; ; 2023-05-11 03:41:30 UTC; unix

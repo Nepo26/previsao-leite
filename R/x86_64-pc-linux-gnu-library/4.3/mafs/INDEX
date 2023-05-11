@@ -1,0 +1,7 @@
+apply_all_models        Fit several forecast models
+apply_selected_model    Select a model to forecast a time series
+                        object.
+available_models        List of available models in mafs package
+error_metrics           list of available error metrics in mafs package
+gg_fit                  Graphical results of forecast models
+select_forecast         Selects best forecast model

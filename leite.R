@@ -33,7 +33,7 @@ plot(z,col='blue',xlab='M�s')
 #Estimando o modelo ARIMA com comando:arima(data,order=c(p,d,q)) 
 arima(leite,order=c(2,1,1)) 
 x<-arima(leite,order=c(2,1,2))
-#O termo n.ahead= 4, mostra quatro passos a frente. Ou seja, no caso: novembro de 2020, dezembro de 2020 e janeiro de 2121. 
+#O termo n.ahead= 4, mostra quatro passos a frente. Ou seja, no caso: novembro de 2020, dezembro de 2020 e janeiro de 2021. 
 forecastx<-predict(x,n.ahead=4)
 forecastx
 checkresiduals(forecastx)
